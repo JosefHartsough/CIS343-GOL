@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/josef/Dropbox/CIS 343/GOL/life.c
+stdlib.h
+-
+stdio.h
+-
+life.h
+/Users/josef/Dropbox/CIS 343/GOL/life.h
+
+/Users/josef/Dropbox/CIS 343/GOL/life.h
+
