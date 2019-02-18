@@ -19,7 +19,6 @@ size_t read_file(char* file_name, char** contents){
 }
 
 /* write_file writes a string of bytes to disk */
-//Not sure if this is correct, still working on it.
 size_t write_file(char* file_name, char* contents, size_t size){
     FILE *fp = fopen(file_name, "w"); //
     fwrite(contents, size, 1, fp);
